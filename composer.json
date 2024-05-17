@@ -1,0 +1,6 @@
+{
+    "require": {
+        "iapp-ai/iapp-php-composer": "^1.0",
+        "pear/http_request2": "^2.6"
+    }
+}

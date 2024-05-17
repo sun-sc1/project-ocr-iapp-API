@@ -1,0 +1,46 @@
+{
+    
+    "name": "iapp-ai/iapp-php-composer",
+    "description": "iApp AI APIs PHP Composer Package",
+    "version": "1.0.0",
+    "homepage": "https://github.com/iapp-technology/php_iapp_ai",
+    "keywords": [
+        "iapp",
+        "iapp ai",
+        "iapp_ai",
+        "iapp-ai apis",
+        "ai api",
+        "iapp ai api",
+        "php composer",
+        "php",
+        "composer package",
+        "iapp-php-composer"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kobkrit Viriyayudhakorn",
+            "email": "kobkrit@iapp.co.th",
+            "homepage": "http://kobkrit.com",
+            "role": "Developer"
+            
+        }
+    ],
+    "support": {
+        "source": "http://github.com/GinoPane/composer-package-template",
+        "docs": "https://github.com/GinoPane/composer-package-template/blob/master/README.md",
+        "issues": "https://github.com/GinoPane/composer-package-template/issues"
+    },
+    "type": "project",
+ 
+"require": {
+    "phpunit/phpunit": "^9.5",
+    "pear/http_request2": "^2.5",
+            "pear/net_url2": "^2.2"
+},
+"autoload": {
+    "psr-4": {
+        "iapp-php-composer\\": "iapp-php-composer/"
+    }
+}
+}
